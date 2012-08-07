@@ -4,8 +4,6 @@ audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
-
-
 html, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
 body { 
@@ -20,10 +18,11 @@ body {
 #logo{
   width: 448px;
   height: 229px;
-  background-image: url('../images/logo.png');
+  background-image: url('../images/logo2.png');
   background-repeat:no-repeat;
-  margin-top: 20px;
-  margin-left:115px;
+  margin-top: 50px;
+  margin-left:75px;
+  float:left;
 }
 
 #tagline{
@@ -32,15 +31,80 @@ body {
   font-weight: 300;
   color: #828282;
   line-height: 42px;
-  margin-left: 115px;
-  margin-top: 20px;
+  margin-left: 75px;
+  margin-top: 11px;
 }
 
-input { -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; background: #d3d1d1; border: none;}
+#links{
+  float:right;
+  margin-right: 75px;
+  margin-top: 50px;
+
+}
+
+#links a{
+  font-family: 'helvetica', sans-serif;
+  font-size:20px;
+  font-weight: 300;
+  line-height: 42px;
+  margin-left: 75px;
+  text-decoration: none;
+  width:170px;
+}
+
+.investors{
+  color: #828282;
+
+}
+
+.artist {
+  color:#da3d11;
+}
+
+input { 
+  -webkit-border-radius: 15px; 
+  -moz-border-radius: 15px; 
+  border-radius: 15px; 
+  border: none;
+  padding: 5px;
+  font-size: 22px;
+  color:#a4a2a2;
+  padding-left: 10px;
+}
+
+#emailTag{
+  font-family: 'helvetica', sans-serif;
+  font-size:20px;
+  font-weight: 300;
+  color: #828282;
+  line-height: 42px;
+  margin-left: 75px;
+  margin-top: 32px;
+}
+
+.lighter{
+  color:#cacaca;
+}
 
 #email{
-  width: 415px;
-  height: 67px;
-  margin-left:115px;
-  
+  width: 380px;
+  height: 50px;
+  margin-left:75px;
+  float:left;
+  margin-top: 5px;
+  background: #2d2d2d; 
+
 }
+
+.button{
+  float: left;
+  height: 60px;
+  background: #DA3D11;
+  color: white;
+  padding-right: 10px;
+  font-size: 18px;
+  margin-top: 5px;
+  width: 83px;
+  margin-left: 10px;
+}
+
