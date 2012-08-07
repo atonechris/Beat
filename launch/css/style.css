@@ -1,0 +1,46 @@
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+
+
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+body { 
+  margin: 0; 
+  font-size: 1em; 
+  line-height: 1.4; 
+  background-image: url('../images/background.jpg'); 
+  background-repeat: repeat-x;
+  background-color:#010101;
+}
+
+#logo{
+  width: 448px;
+  height: 229px;
+  background-image: url('../images/logo.png');
+  background-repeat:no-repeat;
+  margin-top: 20px;
+  margin-left:115px;
+}
+
+#tagline{
+  font-family: 'helvetica', sans-serif;
+  font-size:36px;
+  font-weight: 300;
+  color: #828282;
+  line-height: 42px;
+  margin-left: 115px;
+  margin-top: 20px;
+}
+
+input { -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; background: #d3d1d1; border: none;}
+
+#email{
+  width: 415px;
+  height: 67px;
+  margin-left:115px;
+  
+}
