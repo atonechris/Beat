@@ -99,7 +99,7 @@ input {
 .button{
   float: left;
   height: 60px;
-  background: #DA3D11;
+  background: #f1681b;
   color: white;
   padding-right: 10px;
   font-size: 18px;
@@ -108,3 +108,13 @@ input {
   margin-left: 10px;
 }
 
+#footer{
+  position: absolute;
+  bottom:10px;
+  right:75px;
+}
+
+#footer a{
+  color:#cacaca;
+  text-decoration: none;
+}
