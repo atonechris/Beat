@@ -1,4 +1,4 @@
-# [Simple Launch Site]
+# Simple Launch Site
 
 Simple App Launch site, Launch your app in a few steps.
 

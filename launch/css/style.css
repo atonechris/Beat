@@ -98,20 +98,21 @@ input {
 
 .button{
   float: left;
-  height: 60px;
-  background: #10817c;
+  height: 37px;
+  background: #10817C;
   color: white;
   padding-right: 10px;
   font-size: 18px;
-  margin-top: 5px;
-  width: 100px;
-  margin-left: 10px;
+  margin-top: 17px;
+  width: 130px;
+  margin-left: 19px;
 }
 
 #footer{
   position: absolute;
   bottom:10px;
   right:75px;
+  color: #4f4f4f;
 }
 
 #footer a{
