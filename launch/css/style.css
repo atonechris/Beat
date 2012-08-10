@@ -12,13 +12,13 @@ body {
   line-height: 1.4; 
   background-image: url('../images/background.jpg'); 
   background-repeat: repeat-x;
-  background-color:#010101;
+  background-color:#141414;
 }
 
 #logo{
   width: 448px;
   height: 229px;
-  background-image: url('../images/logo2.png');
+  background-image: url('../images/logo.png');
   background-repeat:no-repeat;
   margin-top: 50px;
   margin-left:75px;
@@ -29,7 +29,7 @@ body {
   font-family: 'helvetica', sans-serif;
   font-size:36px;
   font-weight: 300;
-  color: #828282;
+  color: #b5b5b5;
   line-height: 42px;
   margin-left: 75px;
   margin-top: 11px;
@@ -99,12 +99,12 @@ input {
 .button{
   float: left;
   height: 60px;
-  background: #f1681b;
+  background: #10817c;
   color: white;
   padding-right: 10px;
   font-size: 18px;
   margin-top: 5px;
-  width: 83px;
+  width: 100px;
   margin-left: 10px;
 }
 
