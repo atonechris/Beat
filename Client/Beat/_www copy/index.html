@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <title></title>
+ 	
+ 	<script src="http://localhost:8080/target/target-script-min.js#anonymous"></script>
+ 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
 	<meta charset="utf-8">
 
-  <title>Beat</title>
 
- 	<script src="cordova-WebInspector.js"></script>	
-	<script src="cordova-1.6.0.js"></script>	
-    <link rel="stylesheet" href="css/styles.css" />        
     <link rel="stylesheet" href="css/jquery.css" />
-    <script src="js/jquery.js"></script>
-    <script src="js/jquerymobile.js"></script>
-    <script src="cordova-1.6.0.js"></script>
-</head>
-  
+    <link rel="stylesheet" href="css/styles.css" />
+
+
+	<script src="cordova-WebInspector.js"></script>	
+	<script src="cordova-1.6.0.js"></script>	
+	<script src="js/lib/jquery.mobile-1.1.1.min.js"></script>	
+
+	
+
+  </head>
   <body onload="onBodyLoad()">
 		<div id="home" data-role="page">
 			<div id="container">
@@ -49,35 +54,12 @@
 					<div id="nowPlaying">
 						Now Playing
 					</div>
+					<br />
 					<div id="songName">
 						Yellow
 					</div>
 					<div class="buy">Buy</div>
 				</div>	
-
-				<div id="previousTrack">
-					Previous Tracks
-				</div>
-				<div id="previousArtist">
-					Other Artists
-				</div>	
-				<div class="spacer"></div>
-				<div id="playlistContainer">
-					<ul>
-						<li>Paradise</li>
-						<li>Paradise</li>
-						<li>Paradise</li>
-						<li>Paradise</li>
-						<li>Paradise</li>
-						<li>Paradise</li>
-						<li>Paradise</li>
-						<li>Paradise</li>
-						<li>Paradise</li>
-						<li>Paradise</li>
-						<li>Paradise</li>
-						<li>Paradise</li>
-					</ul>	
-
 			</div>	
 		</div>	
 

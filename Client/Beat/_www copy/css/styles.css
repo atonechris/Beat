@@ -58,7 +58,7 @@ ul {
 
 #container{
   width:320px;
-  height:425px;
+  height:480px;
 }
 
 /*  Retina */
@@ -141,7 +141,6 @@ ul {
   height:55px;
   width: 305px;
   padding-left: 15px;
-  position: relative;
 }
 
 
@@ -149,52 +148,20 @@ ul {
   color: #00a7a0;
   font-family: 'Gotham-Book';
   font-size: 28px;
-  position: absolute;
-  left:103px;
-  top:11px;
+  float:left;
 }
 
 
 #nowPlaying{
   color: #bcbcbc;
   font-family: 'Gotham-Book';
-  font-size: 12px;
+  font-size: 16px;
+  float:left;
   text-transform: uppercase;
-  position: absolute;
-  left:5px;
-  top:18px;
 }
 
 .lighter{
   color: #bcbcbc;
-}
-
-#previousTrack{
-  background: #1c1c1c;
-  height: 18px;
-  width: 68%;
-  color: #fff;
-  padding-top: 6px;
-  padding-left: 2%;
-  float: left;
-  font-family: 'Gotham-Medium';
-  font-size: 10px;
-  text-transform: uppercase;
-}
-
-
-#previousArtist{
-  background: #131313;
-  height: 18px;
-  width: 28%;
-  color: #606060;
-  padding-top: 6px;
-  padding-left: 2%;  
-  float: left;
-  font-family: 'Gotham-Medium';
-  font-size: 10px;  
-  text-transform: uppercase;
-
 }
 
 #songContainer .buy{
@@ -211,31 +178,6 @@ ul {
   width:30px;
   text-align: center;
 }
-
-#playlistContainer{
-  width:310px;
-  margin-left:5px;
-  height: 170px;
-  overflow: scroll;
-}
-
-#playlistContainer li{
-  list-style-type: none;
-  width:300px;
-  margin-left: 5px;
-  height: 20px;
-  color:#fff;
-  font-family: 'Gotham-Medium';
-  font-size: 10px;
-  text-transform: uppercase;
-  padding-left: 5px;
-  padding-top: 5px;
-}
-
-#playlistContainer li:nth-child(odd){
-  background: #333333;
-}
-
 
 /* Webkit animations
 =================================*/
